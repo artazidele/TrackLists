@@ -111,15 +111,15 @@ class TrackListTableViewController: UITableViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
  */
- override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    if let indexPath = tableView.indexPathForSelectedRow {
-        print("indexPath.row: ", indexPath.row)
-    }
-        // Get the new view controller using segue.destination.
-   // let detaiVC = segue.destination as! DetailViewController
-        // Pass the selected object to the new view controller.
-    //detaiVC.song = songs[indexPath.row]
-    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let indexPath = tableView.indexPathForSelectedRow {
+          print("indexPath.row: ", indexPath.row)
+          // Get the new view controller using segue.destination.
+          let detailVC = segue.destination as! DetailViewController
+          // Pass the selected object to the new view controller.
+          detailVC.song = songs[indexPath.row]
+        }
+      }
     
 }
 
