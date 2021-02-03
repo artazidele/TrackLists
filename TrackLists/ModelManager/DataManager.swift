@@ -27,7 +27,7 @@ class DataManager {
         "Dedicated",
         "Father of",
         "Jailbrake",
-        "Hapiness Begins",
+        "Happiness Begins",
         "adhd",
         "11-11",
         "LOSER",
@@ -41,7 +41,7 @@ class DataManager {
     var cover = [
         "Carly Rae Japsen - Dedicated",
         "Dj Khaled - father of",
-        "Injury Reserve - Jailbreake",
+        "Injury Reserve - Jailbrake",
         "Jonas Brothers - Happiness Begins",
         "Joyner Lucas - adhd",
         "Maluma - 11-11",
